@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.hero{
+    background-color: brown;
+    background-image: url(../images/cow.jpg);
+    height:100vh;
+    background-position: bottom center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 46% 100%, 0% 50%);
+    
+}
+.hero h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    border-bottom: 5px solid #ddd;
+    padding-bottom: 0;
+    color: #ddd;
+  
+}
+
+.artical,.cow_type {
+    width: 80%;
+    /*margin-left: auto;
+    margin-right: auto*/;
+    margin:60px auto;
+    background-color: rgb(102, 143, 143);
+    padding: 60px;
+    color: white;
+    border: 5px solid rgb(30, 30, 23);
+    border-radius: 5px; background: linear-gradient(45deg,rgb(209, 26, 56), rgba(16, 16, 129, 0.608));
+   
+}
+
+.artical h2 ,.cow_type h3 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid yellow;
+   
+
+}
+.artical p{
+    line-height: 2em;
+    
+}
+
+.ext{
+    font-size: 2em;
+    /*background-color: rgb(20, 31, 31);
+    border: 2px solid #ddd;*/ 
+}
+
+.cow_images{
+    display: flex;
+    gap: 20px;
+
+}
+
+.cow_images div{
+    margin: 10px auto;
+}
+
+
